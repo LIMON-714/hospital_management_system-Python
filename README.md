@@ -7,62 +7,62 @@
 ![image](https://github.com/LIMON-714/hospital_management_system-Python/assets/81027586/750c7834-74f0-4ee6-bd09-3e5472c1fa78)
 
 
-### Functions
+# Functions
 ## Admin
-# Signup and Login:
-Admins can create their accounts without approval and log in.\n
+### Signup and Login:
+Admins can create their accounts without approval and log in.
 
-Doctor Management:
+### Doctor Management:
 Register, view, approve, reject, and delete doctors.
 Approve doctors who apply for a job in the hospital.
 
-Patient Management:
+### Patient Management:
 Admit, view, approve, reject, and discharge patients.
 Discharge patients upon the completion of their treatment.
 
-Invoice Generation:
+### Invoice Generation:
 Generate and download PDF invoices.
 Calculate invoices based on medicine cost, room charge, doctor charge, and other relevant charges.
 
-Appointment Management:
+### Appointment Management:
 View, book, and approve appointments.
 Approve appointments requested by patients.
 Doctor
 
-Job Application and Login:
+### Job Application and Login:
 Apply for a job in the hospital.
 Log in after approval by the hospital admin.
 
-Patient Details:
+### Patient Details:
 View details of assigned patients, including symptoms, name, and mobile number.
 
-Patient Lists:
+### Patient Lists:
 View lists of discharged patients.
 
-Appointment Management:
+### Appointment Management:
 View appointments booked by the admin.
 Delete attended appointments.
 Patient
 
-Admission Process:
+### Admission Process:
 Create an account for hospital admission.
 Log in after approval by the hospital admin.
 
-Doctor Details:
+### Doctor Details:
 View details of the assigned doctor, including specialization, mobile number, and address.
 
-Appointment Management:
+### Appointment Management:
 View the status of booked appointments (pending/confirmed by admin).
 Book appointments (approval required by admin).
 
-Invoice Access:
+### Invoice Access:
 View and download PDF invoices (accessible only after being discharged by admin).
 
 ## HOW TO RUN 
 create venv python and activate it.install requirements.txt and ,
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
+### py manage.py makemigrations
+### py manage.py migrate
+### py manage.py runserver
 
 
 
