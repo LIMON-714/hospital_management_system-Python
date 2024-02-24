@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>cL's Hospita</title>
+  <style media="screen">
+
+  .container_about {
+      display: flex;
+      justify-content: center;
+      margin-top:-50px;
+      margin-bottom:-50px ;
+      align-items: center;
+      height: 100vh;
+  }
+  .image {
+      flex-shrink: 0;
+      width: 100%;
+      height: 400px;
+      max-width: 400px;
+  }
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+  </style>
+  <title>cL's</title>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    <h1 class="display-4">cL's Hospital</h1>
+    <hr class="my-4">
+    <div class="container_about">
+      <div class="content-about">
+          <p class="lead" style="text-align:left;max-width: 800px;margin-right: 20px;padding: 20px;">Welcome to CL's Hospital, where compassionate care converges with efficient and effective administration. At the heart of our healthcare institution is a devoted team of professionals dedicated to ensuring the well-being of our patients and the seamless operation of our facilities. With a steadfast commitment to excellence in healthcare delivery, our experienced administrators, skilled medical staff, and support personnel collaborate to create a healing environment for all those we serve. Beyond our medical expertise, we strive to foster a supportive and nurturing atmosphere that promotes healing and comfort. Through the strategic utilization of cutting-edge technology and innovative management strategies, we aim to elevate the overall patient experience and optimize operational efficiency. At CL's Hospital, we believe in the transformative power of healthcare and are driven to uphold the highest standards in hospital management, making a positive impact on the well-being of our community.</p>
+      </div>
+      <img class="image" src="{% static 'images/indor.png' %}" alt="cl">
+  </div>
+    <div image></div>
+    <hr class="my-4">
+    <p>This is cL's Hospital about</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/" role="button">HOME</a>
+    </p>
+  </div>
+  {% include "hospital/footer.html" %}
+</body>
+</html>
