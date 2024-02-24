@@ -7,10 +7,11 @@
 ![image](https://github.com/LIMON-714/hospital_management_system-Python/assets/81027586/750c7834-74f0-4ee6-bd09-3e5472c1fa78)
 
 
-Functions
-Admin
-Signup and Login:
-Admins can create their accounts without approval and log in.
+### Functions
+## Admin
+# Signup and Login:
+Admins can create their accounts without approval and log in.\n
+
 Doctor Management:
 Register, view, approve, reject, and delete doctors.
 Approve doctors who apply for a job in the hospital.
