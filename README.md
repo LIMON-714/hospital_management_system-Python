@@ -11,7 +11,8 @@
 ## Admin
 ### Signup and Login:
 Admins can create their accounts without approval and log in.
-
+<br>
+<hr>
 ### Doctor Management:
 Register, view, approve, reject, and delete doctors.
 Approve doctors who apply for a job in the hospital.
